@@ -1,0 +1,10 @@
+[
+    {
+        "package": "geodist",
+        "url": "https://github.com/hypertidy/geodist"
+    },
+    {
+        "package": "typetracer",
+        "url": "https://github.com/mpadge/typetracer"
+    }
+]
