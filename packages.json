@@ -6,5 +6,21 @@
     {
         "package": "typetracer",
         "url": "https://github.com/mpadge/typetracer"
+    },
+    {
+        "package": "paretoconv",
+        "url": "https://github.com/mpadge/paretoconv"
+    },
+    {
+        "package": "spatialcluster",
+        "url": "https://github.com/mpadge/spatialcluster"
+    },
+    {
+        "package": "pkgstats",
+        "url": "https://github.com/ropensci-review-tools/pkgstats"
+    },
+    {
+        "package": "allcontributors",
+        "url": "https://github.com/ropenscilabs/allcontributors"
     }
 ]
