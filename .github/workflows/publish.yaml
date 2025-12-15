@@ -56,7 +56,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
 
       - name: Orgmetrics deploy
-        run: Rscript -e "orgmetrics::orgmetrics_deploy_r_univ(url=${{ GITHUB_REPOSITORY }})"
+        run: Rscript -e "orgmetrics::orgmetrics_deploy_r_univ(url=${{ github.repository }})"
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
 
