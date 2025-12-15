@@ -45,7 +45,7 @@ jobs:
           extra-packages: any::remotes
 
       - name: Install orgmetrics package
-        run: Rscript -e "remotes::install_github('ropensci-review-toools/orgmetrics')"
+        run: Rscript -e "remotes::install_github('ropensci-review-tools/orgmetrics')"
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
 
