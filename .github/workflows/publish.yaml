@@ -42,17 +42,16 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::remotes
-
-      - name: Install orgmetrics package
-        run: Rscript -e "remotes::install_github('ropensci-review-tools/orgmetrics')"
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
+          packages: |
+            any::remotes
+            github::ropensci-review-tools/orgmetrics@main
+          env:
+            GITHUB_TOKEN: "${{ github.token }}"
 
       - name: Orgmetrics deploy
         run: Rscript -e "orgmetrics::orgmetrics_deploy_r_univ(url=${{ github.repository }})"
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
@@ -60,4 +59,4 @@ jobs:
           target: gh-pages
           path: quarto
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
