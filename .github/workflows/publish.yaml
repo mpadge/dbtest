@@ -28,12 +28,9 @@ jobs:
         run: |
           sudo apt-get install -y \
             libcurl4-openssl-dev \
-            libharfbuzz-dev \
-            libfribidi-dev \
             libfontconfig1-dev \
             libfreetype6-dev \
             libpng-dev \
-            libtiff5-dev \
             libjpeg-dev \
             libcairo2-dev
 
