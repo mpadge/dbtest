@@ -45,8 +45,8 @@ jobs:
           packages: |
             any::remotes
             github::ropensci-review-tools/orgmetrics@main
-          env:
-            GITHUB_TOKEN: ${{ github.token }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Orgmetrics deploy
         run: Rscript -e "orgmetrics::orgmetrics_deploy_r_univ(url=${{ github.repository }})"
