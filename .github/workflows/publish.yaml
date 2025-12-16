@@ -55,7 +55,7 @@ jobs:
       - name: Orgmetrics deploy
         run: Rscript -e "orgmetrics::orgmetrics_deploy_r_univ(url='https://github.com/${{ github.repository }}')"
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
