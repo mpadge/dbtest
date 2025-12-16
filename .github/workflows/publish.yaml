@@ -44,6 +44,10 @@ jobs:
         with:
           packages: |
             any::remotes
+            any::visNetwork
+            any::bsicons
+            any::plotly
+            github::ropensci-review-tools/pkgmatch@main
             github::ropensci-review-tools/orgmetrics@main
         env:
           GITHUB_TOKEN: ${{ github.token }}
