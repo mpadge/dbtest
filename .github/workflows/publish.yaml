@@ -50,10 +50,10 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
 
       - name: Orgmetrics deploy
-        run: Rscript -e "orgmetrics::orgmetrics_deploy_r_univ(url='https://github.com/${{ github.repository }}')"
+        run: Rscript -e "options('rlang_message_verbosity'='verbose'); orgmetrics::orgmetrics_deploy_r_univ(url='https://github.com/${{ github.repository }}')"
         env:
           R_CRAN_WEB: "https://cloud.r-project.org"
-          GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
