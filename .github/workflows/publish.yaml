@@ -1,4 +1,4 @@
-on:
+s3on:
   workflow_dispatch:
   push:
     branches: main
@@ -34,7 +34,7 @@ jobs:
             any::visNetwork
             any::bsicons
             any::plotly
-            any:shiny
+            any::shiny
             github::ropensci-review-tools/pkgmatch@main
             github::ropensci-review-tools/orgmetrics-redux@main
         env:
