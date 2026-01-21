@@ -2,10 +2,10 @@ on:
   workflow_dispatch:
   push:
     branches: main
-  schedule:
-    - cron: 0 0 * * *
+  # schedule:
+  # - cron: 0 0 * * *
 
-name: Quarto Publish
+name: Orgmetrics dashboard
 
 jobs:
 
@@ -34,6 +34,7 @@ jobs:
             any::visNetwork
             any::bsicons
             any::plotly
+            any::shiny
             github::ropensci-review-tools/pkgmatch@main
             github::ropensci-review-tools/orgmetrics@main
         env:
