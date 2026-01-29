@@ -1,79 +1,11 @@
 [
     {
-        "package": "osmdata",
-        "url": "https://github.com/ropensci/osmdata"
-    },
-    {
-        "package": "osmplotr",
-        "url": "https://github.com/ropensci/osmplotr"
-    },
-    {
-        "package": "bikedata",
-        "url": "https://github.com/ropensci/bikedata"
-    },
-    {
-        "package": "mapscanner",
-        "url": "https://github.com/ropensci/mapscanner"
-    },
-    {
-        "package": "dodgr",
-        "url": "https://github.com/UrbanAnalyst/dodgr"
-    },
-    {
-        "package": "gtfsrouter",
-        "url": "https://github.com/UrbanAnalyst/gtfsrouter"
-    },
-    {
         "package": "geodist",
         "url": "https://github.com/hypertidy/geodist"
     },
     {
-        "package": "genderconsciousrouting",
-        "url": "https://github.com/mpadge/gender-conscious-routing"
-    },
-    {
-        "package": "tnorm",
-        "url": "https://github.com/mpadge/tnorm"
-    },
-    {
-        "package": "hotspotr",
-        "url": "https://github.com/mpadge/hotspotr"
-    },
-    {
-        "package": "autotest",
-        "url": "https://github.com/ropensci-review-tools/autotest"
-    },
-    {
-        "package": "dashboard",
-        "url": "https://github.com/ropensci-review-tools/dashboard"
-    },
-    {
-        "package": "goodpractice",
-        "url": "https://github.com/ropensci-review-tools/goodpractice"
-    },
-    {
-        "package": "orgmetrics",
-        "url": "https://github.com/ropensci-review-tools/orgmetrics"
-    },
-    {
-        "package": "pkgcheck",
-        "url": "https://github.com/ropensci-review-tools/pkgcheck"
-    },
-    {
-        "package": "pkgmatch",
-        "url": "https://github.com/ropensci-review-tools/pkgmatch"
-    },
-    {
         "package": "pkgstats",
         "url": "https://github.com/ropensci-review-tools/pkgstats"
-    },
-    {
-        "package": "repometrics",
-        "url": "https://github.com/ropensci-review-tools/repometrics"
-    },
-    {
-        "package": "roreviewapi",
-        "url": "https://github.com/ropensci-review-tools/roreviewapi"
     },
     {
         "package": "spaceout",
@@ -88,35 +20,7 @@
         "url": "https://github.com/ropenscilabs/allcontributors"
     },
     {
-        "package": "r2readthedocs",
-        "url": "https://github.com/ropenscilabs/r2readthedocs"
-    },
-    {
-        "package": "paretoconv",
-        "url": "https://github.com/mpadge/paretoconv"
-    },
-    {
         "package": "typetracer",
         "url": "https://github.com/mpadge/typetracer"
-    },
-    {
-        "package": "spatialcluster",
-        "url": "https://github.com/mpadge/spatialcluster"
-    },
-    {
-        "package": "nyped",
-        "url": "https://github.com/ATFutures/nyped"
-    },
-    {
-        "package": "neighbourhoods",
-        "url": "https://github.com/atfutures-labs/neighbourhoods"
-    },
-    {
-        "package": "moveability",
-        "url": "https://github.com/moveability/moveability"
-    },
-    {
-        "package": "libfuzzerr",
-        "url": "https://github.com/mpadge/libfuzzerr"
     }
 ]
