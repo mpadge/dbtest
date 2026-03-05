@@ -1,26 +1,120 @@
 [
     {
-        "package": "geodist",
-        "url": "https://github.com/hypertidy/geodist"
+        "package": "ggseg.formats",
+        "url": "https://github.com/ggsegverse/ggseg.formats"
     },
     {
-        "package": "pkgstats",
-        "url": "https://github.com/ropensci-review-tools/pkgstats"
+        "package": "ggseg",
+        "url": "https://github.com/ggsegverse/ggseg"
     },
     {
-        "package": "spaceout",
-        "url": "https://github.com/ropensci-review-tools/spaceout"
+        "package": "ggseg3d",
+        "url": "https://github.com/ggsegverse/ggseg3d"
     },
     {
-        "package": "srr",
-        "url": "https://github.com/ropensci-review-tools/srr"
+        "package": "ggsegExtra",
+        "url": "https://github.com/ggsegverse/ggseg.extra"
     },
     {
-        "package": "allcontributors",
-        "url": "https://github.com/ropenscilabs/allcontributors"
+        "package": "neuromapr",
+        "url": "https://github.com/lcbc-uio/neuromapr"
     },
     {
-        "package": "typetracer",
-        "url": "https://github.com/mpadge/typetracer"
+        "package": "wbcmd",
+        "url": "https://github.com/lcbc-uio/wbcmd"
+    },
+    {
+        "package": "ggsegYeo2011",
+        "url": "https://github.com/ggsegverse/ggsegYeo2011"
+    },
+    {
+        "package": "ggsegSchaefer",
+        "url": "https://github.com/ggsegverse/ggsegSchaefer"
+    },
+    {
+        "package": "ggsegGlasser",
+        "url": "https://github.com/ggsegverse/ggsegGlasser"
+    },
+    {
+        "package": "ggsegDestrieux",
+        "url": "https://github.com/ggsegverse/ggsegDestrieux"
+    },
+    {
+        "package": "ggsegChen",
+        "url": "https://github.com/ggsegverse/ggsegChen"
+    },
+    {
+        "package": "ggsegTracula",
+        "url": "https://github.com/ggsegverse/ggsegTracula"
+    },
+    {
+        "package": "ggsegDKT",
+        "url": "https://github.com/ggsegverse/ggsegDKT"
+    },
+    {
+        "package": "ggsegJHU",
+        "url": "https://github.com/ggsegverse/ggsegJHU"
+    },
+    {
+        "package": "ggsegICBM",
+        "url": "https://github.com/ggsegverse/ggsegICBM"
+    },
+    {
+        "package": "ggsegHO",
+        "url": "https://github.com/ggsegverse/ggsegHO"
+    },
+    {
+        "package": "ggsegBrainnetome",
+        "url": "https://github.com/ggsegverse/ggsegBrainnetome"
+    },
+    {
+        "package": "ggsegPower",
+        "url": "https://github.com/ggsegverse/ggsegPower"
+    },
+    {
+        "package": "ggsegAAL",
+        "url": "https://github.com/ggsegverse/ggsegAal"
+    },
+    {
+        "package": "ggsegIca",
+        "url": "https://github.com/ggsegverse/ggsegIca"
+    },
+    {
+        "package": "ggsegAicha",
+        "url": "https://github.com/ggsegverse/ggsegAicha"
+    },
+    {
+        "package": "ggsegGordon",
+        "url": "https://github.com/ggsegverse/ggsegGordon"
+    },
+    {
+        "package": "ggsegArslan",
+        "url": "https://github.com/ggsegverse/ggsegArslan"
+    },
+    {
+        "package": "ggsegBrodmann",
+        "url": "https://github.com/ggsegverse/ggsegBrodmann"
+    },
+    {
+        "package": "ggsegCampbell",
+        "url": "https://github.com/ggsegverse/ggsegCampbell"
+    },
+    {
+        "package": "ggsegKleist",
+        "url": "https://github.com/ggsegverse/ggsegKleist"
+    },
+    {
+        "package": "ggsegFlechsig",
+        "url": "https://github.com/ggsegverse/ggsegFlechsig"
+    },
+    {
+        "package": "ggsegEconomo",
+        "url": "https://github.com/ggsegverse/ggsegEconomo"
+    },
+    {
+        "package": "freesurfer",
+        "url": "https://github.com/drmowinckels/freesurfer",
+        "branch": "refactor"
     }
 ]
+
